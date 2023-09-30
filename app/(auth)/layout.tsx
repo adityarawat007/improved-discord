@@ -1,5 +1,6 @@
+
 const AuthLayout = ({children}:{children: React.ReactNode}) => {
-    return ( <div className="bg-red-500 h-full text-4xl">
+    return ( <div className="flex flex-col">
         {children}
     </div> );
 }
